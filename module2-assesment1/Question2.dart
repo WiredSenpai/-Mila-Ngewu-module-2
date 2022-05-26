@@ -23,7 +23,7 @@ void main() {
   //Winning app of 2017 and 2018
   apps.forEach((key, value) {
     if (value == 2017 || value == 2018) {
-      print("$key: $value");
+      print("$key");
     }
   });
   //Calculating and printing the number apps
